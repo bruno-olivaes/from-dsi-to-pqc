@@ -15,6 +15,12 @@ from datetime import datetime
 
 PAPERS = [
     {
+        "id": "24124702",
+        "doi": "10.5281/zenodo.24124702",
+        "name": "00. The Matrioska Protocol (Master Book)",
+        "repo": "from-dsi-to-pqc",
+    },
+    {
         "id": "24121677",
         "doi": "10.5281/zenodo.24121677",
         "name": "01. Planck 2018 DSI (Cosmologia)",
@@ -104,7 +110,8 @@ def main():
             dl_str = f"{d} ({ud})"
             print(f"{i:<3} {paper['name']:<38} {paper['doi']:<28} {views_str:<8} {dl_str:<10}")
         else:
-            print(f"{i:<3} {paper['name']:<38} {paper['doi']:<28} {'ERR':<8} {'ERR':<10}")
+            status_txt = "Reservado" if "404" in info.get("error", "") else "ERR"
+            print(f"{i:<3} {paper['name']:<38} {paper['doi']:<28} {status_txt:<8} {'--':<10}")
 
     print("-" * 90)
     print(f"{'TOTAL CONSOLIDADO':<70} {f'{total_views} ({total_unique_views})':<8} {f'{total_downloads} ({total_unique_downloads})':<10}")

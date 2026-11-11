@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.6)  11 NOV 2026 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.6)  11 NOV 2026 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,12 +485,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/bruno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
+Underfull \hbox (badness 10000) in paragraph at lines 80--86
 
  []
 
@@ -548,7 +548,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<figures/fig1_fake_oscillation.pdf, id=393, 520.34402pt x 375.804pt>
+<figures/fig1_fake_oscillation.pdf, id=394, 520.34402pt x 375.804pt>
 File: figures/fig1_fake_oscillation.pdf Graphic file (type pdf)
 <use figures/fig1_fake_oscillation.pdf>
 Package pdftex.def Info: figures/fig1_fake_oscillation.pdf  used on input line 
@@ -558,14 +558,14 @@ Package pdftex.def Info: figures/fig1_fake_oscillation.pdf  used on input line
 Underfull \vbox (badness 3168) has occurred while \output is active []
 
  [6 <./figures/fig1_fake_oscillation.pdf>]
-<figures/fig2_spline_attenuation.pdf, id=515, 520.34402pt x 346.89601pt>
+<figures/fig2_spline_attenuation.pdf, id=516, 520.34402pt x 346.89601pt>
 File: figures/fig2_spline_attenuation.pdf Graphic file (type pdf)
 <use figures/fig2_spline_attenuation.pdf>
 Package pdftex.def Info: figures/fig2_spline_attenuation.pdf  used on input lin
 e 71.
 (pdftex.def)             Requested size: 424.05934pt x 282.7204pt.
  [7]
-<figures/fig3_kpfm_monotonic.pdf, id=536, 491.436pt x 317.98799pt>
+<figures/fig3_kpfm_monotonic.pdf, id=537, 491.436pt x 317.98799pt>
 File: figures/fig3_kpfm_monotonic.pdf Graphic file (type pdf)
 <use figures/fig3_kpfm_monotonic.pdf>
 Package pdftex.def Info: figures/fig3_kpfm_monotonic.pdf  used on input line 89
@@ -587,7 +587,7 @@ Chapter 3.
 
 
 ] [11]
-<figures/fig_euclid_hubble_forecast.png, id=792, 758.835pt x 939.51pt>
+<figures/fig_euclid_hubble_forecast.png, id=793, 758.835pt x 939.51pt>
 File: figures/fig_euclid_hubble_forecast.png Graphic file (type png)
 <use figures/fig_euclid_hubble_forecast.png>
 Package pdftex.def Info: figures/fig_euclid_hubble_forecast.png  used on input 
@@ -611,7 +611,7 @@ d-son poly-no-mial, or ex-po-nen-tial ansatzes [[],
 
 
 ] [15] [16]
-<figures/fig_fair_zne_comparison.png, id=866, 975.645pt x 375.804pt>
+<figures/fig_fair_zne_comparison.png, id=867, 975.645pt x 375.804pt>
 File: figures/fig_fair_zne_comparison.png Graphic file (type png)
 <use figures/fig_fair_zne_comparison.png>
 Package pdftex.def Info: figures/fig_fair_zne_comparison.png  used on input lin
@@ -643,7 +643,7 @@ ficateVerify
  []
 
 [21]
-<figures/fig_pqc_crypto_agility.png, id=924, 1156.32pt x 361.35pt>
+<figures/fig_pqc_crypto_agility.png, id=925, 1156.32pt x 361.35pt>
 File: figures/fig_pqc_crypto_agility.png Graphic file (type png)
 <use figures/fig_pqc_crypto_agility.png>
 Package pdftex.def Info: figures/fig_pqc_crypto_agility.png  used on input line
@@ -728,9 +728,9 @@ eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/bruno/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/bruno/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/bruno/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on book.pdf (34 pages, 2013109 bytes).
+Output written on book.pdf (34 pages, 2013448 bytes).
 PDF statistics:
- 1306 PDF objects out of 1440 (max. 8388607)
+ 1307 PDF objects out of 1440 (max. 8388607)
  360 named destinations out of 1000 (max. 500000)
  479 words of extra memory for PDF output out of 10000 (max. 10000000)
 

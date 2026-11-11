@@ -3,7 +3,7 @@
 ### *A Metrological Journey through Cosmology, Quantum Computing, and Post-Quantum Cryptography*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXXX)
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24124702-blue)](https://doi.org/10.5281/zenodo.24124702)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--8857--7945-green.svg)](https://orcid.org/0009-0003-8857-7945)
 
 **Author:** Bruno Luçardo Olivaes  
@@ -101,7 +101,8 @@ python scripts/check_impact.py
   month     = nov,
   publisher = {Zenodo},
   note      = {ORCID: 0009-0003-8857-7945. Licensed under CC BY 4.0},
-  doi       = {10.5281/zenodo.XXXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXXX}
+  doi       = {10.5281/zenodo.24124702},
+  url       = {https://doi.org/10.5281/zenodo.24124702}
 }
 ```
+
