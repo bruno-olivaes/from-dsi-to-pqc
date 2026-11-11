@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: book.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: chapters/preface.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: chapters/ch1_planck_dsi.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chapters/ch2_casimir_afm.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: chapters/ch3_euclid_dark_energy.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: chapters/ch4_qiskit_zne.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: chapters/ch5_pqc_network_cost.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: chapters/appendix_protocol_code.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Database file #1: refs.bib
+Warning--empty publisher in paquin2020
+You've used 34 entries,
+            1791 wiz_defined-function locations,
+            657 strings with 8224 characters,
+and the built_in function-call counts, 7806 in all, are:
+= -- 732
+> -- 265
+< -- 8
++ -- 104
+- -- 70
+* -- 490
+:= -- 1223
+add.period$ -- 103
+call.type$ -- 34
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 365
+empty$ -- 798
+format.name$ -- 70
+if$ -- 1750
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 32
+newline$ -- 173
+num.names$ -- 34
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 169
+stack$ -- 0
+substring$ -- 623
+swap$ -- 84
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 87
+width$ -- 36
+write$ -- 376
+(There was 1 warning)

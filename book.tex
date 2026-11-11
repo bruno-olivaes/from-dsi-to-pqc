@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper,openany]{book}
+\usepackage[margin=2.4cm,bottom=2.6cm,top=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+
+\newenvironment{abstract}
+  {\small\begin{quotation}\noindent\textbf{Chapter Abstract:}\ }
+  {\end{quotation}\vspace{0.5cm}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={The Matrioska Protocol: From Cosmic Scale Invariance to Quantum Security},
+    pdfauthor={Bruno Luçardo Olivaes}
+}
+
+\lstset{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{teal}\itshape,
+    stringstyle=\color{purple},
+    backgroundcolor=\color{gray!5},
+    showstringspaces=false
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+\frontmatter
+
+% --- TITLE PAGE ---
+\begin{titlepage}
+\begin{center}
+\vspace*{1.5cm}
+
+{\Huge \bfseries The Matrioska Protocol}\\[0.5cm]
+{\LARGE \bfseries From Cosmic Scale Invariance to Quantum Security}\\[1.5cm]
+
+{\large \textit{A Metrological Journey through Cosmology, Quantum Computing, and Post-Quantum Cryptography}}\\[3.5cm]
+
+{\Large \textbf{Bruno Lu\c{c}ardo Olivaes}}\\[0.4cm]
+{\large Independent Researcher, Brazil}\\[0.2cm]
+{\small \texttt{brunoolivaes@gmail.com} $\cdot$ ORCID: 0009-0003-8857-7945}\\[3.5cm]
+
+\vfill
+{\large First Edition --- November 2026}\\[0.2cm]
+{\small Published under Creative Commons Attribution 4.0 International (CC BY 4.0)}
+\end{center}
+\end{titlepage}
+
+% --- COPYRIGHT PAGE ---
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\noindent \textbf{The Matrioska Protocol: From Cosmic Scale Invariance to Quantum Security}\\
+\textit{A Metrological Journey through Cosmology, Quantum Computing, and Post-Quantum Cryptography}\\
+Author: Bruno Lu\c{c}ardo Olivaes\\
+ORCID: 0009-0003-8857-7945\\
+
+\vspace{0.5cm}
+\noindent \textbf{Open Research \& Sovereign DOIs (CERN / Zenodo):}\\
+$\cdot$ Chapter 1 (Planck DSI): \url{https://doi.org/10.5281/zenodo.24121677}\\
+$\cdot$ Chapter 2 (Casimir Metrology): \url{https://doi.org/10.5281/zenodo.24121687}\\
+$\cdot$ Chapter 3 (ESA Euclid Forecast): \url{https://doi.org/10.5281/zenodo.24121691}\\
+$\cdot$ Chapter 4 (NISQ ZNE Benchmark): \url{https://doi.org/10.5281/zenodo.24121693}\\
+$\cdot$ Chapter 5 (PQC Wire Cost): \url{https://doi.org/10.5281/zenodo.24121695}\\
+
+\vspace{0.5cm}
+\noindent \copyright\ 2026 Bruno Lu\c{c}ardo Olivaes. This work is licensed under a \textit{Creative Commons Attribution 4.0 International License} (CC BY 4.0). You are free to share and adapt the material for any purpose, provided appropriate credit is given.
+\vspace{1cm}
+
+\tableofcontents
+
+\include{chapters/preface}
+
+\mainmatter
+
+\include{chapters/ch1_planck_dsi}
+\include{chapters/ch2_casimir_afm}
+\include{chapters/ch3_euclid_dark_energy}
+\include{chapters/ch4_qiskit_zne}
+\include{chapters/ch5_pqc_network_cost}
+
+\backmatter
+
+\appendix
+\include{chapters/appendix_protocol_code}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\end{document}

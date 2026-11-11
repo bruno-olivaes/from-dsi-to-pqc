@@ -1,0 +1,192 @@
+\begin{thebibliography}{10}
+
+\bibitem{planck2018}
+{Planck Collaboration}.
+\newblock Planck 2018 results. vi. cosmological parameters.
+\newblock {\em Astron. Astrophys.}, 641:A6, 2020.
+
+\bibitem{desi2024}
+{DESI Collaboration}.
+\newblock Desi 2024 vi: Cosmological constraints from the measurements of
+  baryon acoustic oscillations.
+\newblock {\em JCAP}, 02:021, 2025.
+
+\bibitem{lomb1976}
+N.~R. Lomb.
+\newblock Least-squares frequency analysis of unequally spaced data.
+\newblock {\em Astrophys. Space Sci.}, 39:447--462, 1976.
+
+\bibitem{scargle1982}
+J.~D. Scargle.
+\newblock Studies in astronomical time series analysis. ii - statistical
+  aspects of spectral analysis of unevenly spaced data.
+\newblock {\em Astrophys. J.}, 263:835--853, 1982.
+
+\bibitem{zechmeister2009}
+M.~Zechmeister and M.~K{\"u}rster.
+\newblock The generalised lomb-scargle periodogram. a new formalism for the
+  floating-mean and keplerian periodograms.
+\newblock {\em Astron. Astrophys.}, 496(2):577--584, 2009.
+
+\bibitem{casimir1948}
+H.~B.~G. Casimir.
+\newblock On the attraction between two perfectly conducting plates.
+\newblock {\em Proc. K. Ned. Akad. Wet.}, 51:793--795, 1948.
+
+\bibitem{lifshitz1956}
+E.~M. Lifshitz.
+\newblock The theory of molecular attractive forces between solids.
+\newblock {\em Sov. Phys. JETP}, 2:73--83, 1956.
+
+\bibitem{decca2003}
+R.~S. Decca, D.~L{\'o}pez, E.~Fischbach, and D.~E. Krause.
+\newblock Measurement of the casimir force between dissimilar metals.
+\newblock {\em Phys. Rev. Lett.}, 91:050402, 2003.
+
+\bibitem{dejong2025}
+M.~H.~J. de~Jong, E.~Korkmazgil, L.~Banniard, M.~A. Sillanp{\"a}{\"a}, and
+  L.~Mercier~de L{\'e}pinay.
+\newblock Measurement of the superconducting casimir effect.
+\newblock {\em Nat. Phys.}, 21:1--8, 2025.
+
+\bibitem{baluev2008}
+R.~V. Baluev.
+\newblock Assessing the statistical significance of periodogram peaks.
+\newblock {\em Mon. Not. R. Astron. Soc.}, 385(3):1279--1289, 2008.
+
+\bibitem{speake2003}
+C.~C. Speake and C.~Trenner.
+\newblock Forces between conducting surfaces due to spatial variations of
+  surface potential.
+\newblock {\em Class. Quantum Grav.}, 20(17):S281--S287, 2003.
+
+\bibitem{weinberg1989}
+S.~Weinberg.
+\newblock The cosmological constant problem.
+\newblock {\em Rev. Mod. Phys.}, 61:1--23, 1989.
+
+\bibitem{peebles2003}
+P.~J.~E. Peebles and B.~Ratra.
+\newblock The cosmological constant and dark energy.
+\newblock {\em Rev. Mod. Phys.}, 75:559--606, 2003.
+
+\bibitem{riess2022}
+A.~G. Riess et~al.
+\newblock A comprehensive measurement of the local value of the hubble constant
+  with 1 km/s/mpc uncertainty from the hubble space telescope and sh0es team.
+\newblock {\em Astrophys. J. Lett.}, 934:L7, 2022.
+
+\bibitem{brout2022}
+D.~Brout et~al.
+\newblock The pantheon+ analysis: Cosmological constraints.
+\newblock {\em Astrophys. J.}, 938:110, 2022.
+
+\bibitem{chevallier2001}
+M.~Chevallier and D.~Polarski.
+\newblock Accelerating universes with scaling dark energy.
+\newblock {\em Int. J. Mod. Phys. D}, 10:213--224, 2001.
+
+\bibitem{linder2003}
+E.~V. Linder.
+\newblock Exploring the expansion history of the universe.
+\newblock {\em Phys. Rev. Lett.}, 90:091301, 2003.
+
+\bibitem{blanchard2020}
+{Euclid Collaboration}.
+\newblock Euclid preparation. vii. forecast validation for euclid cosmological
+  probes.
+\newblock {\em Astron. Astrophys.}, 642:A191, 2020.
+
+\bibitem{chen2019}
+L.~Chen, Q.-G. Huang, and K.~Wang.
+\newblock Distance priors from planck final release.
+\newblock {\em JCAP}, 02:028, 2019.
+
+\bibitem{preskill2018}
+J.~Preskill.
+\newblock Quantum computing in the nisq era and beyond.
+\newblock {\em Quantum}, 2:79, 2018.
+
+\bibitem{temme2017}
+K.~Temme, S.~Bravyi, and J.~M. Gambetta.
+\newblock Error mitigation for short-depth quantum circuits.
+\newblock {\em Phys. Rev. Lett.}, 119:180509, 2017.
+
+\bibitem{li2017}
+Y.~Li and S.~C. Benjamin.
+\newblock Efficient variational quantum simulator incorporating active error
+  minimization.
+\newblock {\em Phys. Rev. X}, 7:021050, 2017.
+
+\bibitem{cai2023}
+Z.~Cai et~al.
+\newblock Quantum error mitigation.
+\newblock {\em Rev. Mod. Phys.}, 95:045005, 2023.
+
+\bibitem{kandala2019}
+A.~Kandala et~al.
+\newblock Error mitigation extends the computational reach of a noisy quantum
+  processor.
+\newblock {\em Nature}, 567:491--495, 2019.
+
+\bibitem{giurgica2020}
+T.~Giurgica-Tiron, Y.~Hindy, R.~LaRose, A.~Mari, and W.~J. Zeng.
+\newblock Digital zero noise extrapolation for quantum error mitigation.
+\newblock In {\em 2020 IEEE International Conference on Quantum Computing and
+  Engineering (QCE)}, pages 306--316, 2020.
+
+\bibitem{hashim2021}
+A.~Hashim et~al.
+\newblock Randomized compiling for scalable quantum computing on a
+  cloud-accessible quantum processor.
+\newblock {\em Phys. Rev. X}, 11:041039, 2021.
+
+\bibitem{wallman2016}
+J.~J. Wallman and J.~Emerson.
+\newblock Noise tailoring for scalable quantum computation via randomized
+  compiling.
+\newblock {\em Phys. Rev. A}, 94:052325, 2016.
+
+\bibitem{rescorla2018}
+E.~Rescorla.
+\newblock The transport layer security (tls) protocol version 1.3.
+\newblock RFC 8446, IETF, 2018.
+
+\bibitem{shor1994}
+P.~W. Shor.
+\newblock Algorithms for quantum computation: discrete logarithms and
+  factoring.
+\newblock In {\em Proceedings 35th Annual Symposium on Foundations of Computer
+  Science}, pages 124--134, 1994.
+
+\bibitem{bos2018}
+J.~Bos et~al.
+\newblock Crystals - kyber: a cca-secure module-lattice-based kem.
+\newblock In {\em 2018 IEEE European Symposium on Security and Privacy
+  (EuroS\&P)}, pages 353--367, 2018.
+
+\bibitem{schwabe2020}
+P.~Schwabe, D.~Stebila, and T.~Wiggers.
+\newblock Post-quantum tls without handshake signatures.
+\newblock In {\em Proceedings of the 2020 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 885--903, 2020.
+
+\bibitem{paquin2020}
+C.~Paquin, D.~Stebila, and G.~Tamvada.
+\newblock Benchmarking post-quantum cryptography in tls.
+\newblock In {\em Post-Quantum Cryptography - PQCrypto 2020}, volume 12100 of
+  {\em LNCS}, pages 83--101. 2020.
+
+\bibitem{sikeridis2020}
+D.~Sikeridis, P.~Kampanakis, and M.~Devetsikiotis.
+\newblock Assessing the overhead of post-quantum cryptography in tls 1.3 and
+  ssh.
+\newblock In {\em Proceedings of the Network and Distributed System Security
+  Symposium (NDSS)}, 2020.
+
+\bibitem{chu2013}
+J.~Chu, N.~Dukkipati, Y.~Cheng, and M.~Mathis.
+\newblock Increasing tcp's initial window.
+\newblock RFC 6928, IETF, 2013.
+
+\end{thebibliography}
