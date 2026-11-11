@@ -44,22 +44,23 @@ When the baseline is modeled instead using the physical inverse-power expansion 
 
 Furthermore, naive thresholding rules (such as $\mathrm{median} + 3\sigma_{\mathrm{clipped}}$) mistakenly assume that periodogram powers are Gaussian-distributed. Because Fourier periodogram powers on Gaussian white noise follow an exponential distribution ($\chi^2_2/2$), this naive rule flags up to 36 false peaks on identically detrended white noise, whereas the exact $\chi^2_2$ threshold flags zero.
 
-\begin{table}[t]
+\begin{table}[htbp]
 \centering
-\small
 \caption{Metrological Comparison of Naive Signal-Processing Methods versus the Physical Baseline Approach on Casimir Residuals.}
-\label{tab:pitfalls}
-\begin{tabular}{lccccc}
+\label{tab:casimir_metrology}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccl}
 \toprule
-\textbf{Processing Method} & \textbf{Effective Baseline} & $\chi^2/\mathrm{dof}$ & \textbf{Spurious Peaks} & \textbf{Max Peak $\lambda$} & \textbf{Baluev $\mathrm{FAP}$} \\
+\textbf{Processing Method} & \textbf{Effective Baseline} & $\boldsymbol{\chi^2/\mathrm{dof}}$ & \textbf{Spurious Peaks} & \textbf{Max Peak $\boldsymbol{\lambda}$} & \textbf{Baluev FAP} \\
 \midrule
-Raw Data (No Detrending) & None & $41.29$ & $1$ (broad drift) & $992.0\,\mathrm{nm}$ & $1.01 \times 10^{-35}$ \\
-Naive Polynomial Subtraction & Cubic $P_3(z)$ & $3.74$ & $36$ (Gaussian rule) & $583.5\,\mathrm{nm}$ & $1.49 \times 10^{-45}$ \\
-Spline Resampling + FFT & Interpolated & $3.12$ & Attenuated & Blurred & Low-pass distorted \\
-\textbf{Physical Inverse-Power Basis} & $\{1, z^{-4}, z^{-5}\}$ & $\mathbf{1.14}$ & $\mathbf{0}$ & $\mathbf{8.2\,\mathrm{nm}}$ & $\mathbf{0.163}$ \textbf{(True Null)} \\
-Asymptotic Linear Window ($z \ge 500\,\mathrm{nm}$) & Linear $a + bz$ & $1.20$ & $0$ & $4.2\,\mathrm{nm}$ & $0.651$ (True Null) \\
+Raw Data (No Detrending) & None & 41.29 & 1 (broad drift) & 992.0 nm & $1.00 \times 10^{-89}$ \\
+Naive Polynomial Subtraction & Cubic $P_3(z)$ & 3.74 & 36 (Gaussian rule) & 583.5 nm & $1.49 \times 10^{-45}$ \\
+Spline Resampling + FFT & Interpolated & 3.12 & Attenuated & Blurred & Low-pass biased \\
+Physical Inverse-Power Basis & $\{1, z^{-4}, z^{-5}\}$ & 1.14 & 0 & 8.2 nm & 0.163 (Null) \\
+Asymptotic Linear Window ($z \ge 500\text{ nm}$) & Linear $a + bz$ & 1.20 & 0 & 4.2 nm & 0.654 (Null) \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \section{The Spline Interpolation Trap: High-Frequency Variance Attenuation}
