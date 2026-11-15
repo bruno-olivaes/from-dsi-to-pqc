@@ -23,8 +23,8 @@
 \contentsline {section}{\numberline {3.2}The Log-Oscillatory Dark Energy Formulation}{11}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Exact Relativistic Energy Density}{11}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Observational Datasets and Likelihood Methodology}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Results and Degeneracy Breaking with Euclid}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Summary}{12}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Results and Stage-IV Euclid Fisher Forecast}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Summary}{13}{section.3.5}%
 \contentsline {chapter}{\numberline {4}When Harmonic ZNE Fails: Quantum Error Mitigation Benchmarks}{14}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{14}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Methodology and Mitigation Architectures}{15}{section.4.2}%
@@ -53,4 +53,13 @@
 \contentsline {subsection}{\numberline {5.4.1}RFC 6928 and Initial Congestion Window ($\texttt {initcwnd}$)}{23}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Middlebox Ossification and Lossy Links}{23}{subsection.5.4.2}%
 \contentsline {section}{\numberline {5.5}Summary and Practical Guidelines}{23}{section.5.5}%
-\contentsline {chapter}{The Certified Three-Stage Protocol Implementation}{24}{appendix*.6}%
+\contentsline {chapter}{\numberline {6}Certified Search for Discrete Scale Invariance in LHC Dimuon Spectra}{24}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Cross-Domain Universality Hypothesis at Collider Scales}{24}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Kinematic Windows and Post-Fit Residual Protocol}{24}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Null Results and Absence of Cross-Scale Universality}{25}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Breaking the Binning Barrier: Unbinned Composite Quadrature and Neural SBI at the LHC}{27}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Intra-Bin Fisher Dilution Barrier}{27}{section.7.1}%
+\contentsline {section}{\numberline {7.2}CMS Empirical Resolution Calibration and Unbinned Quadrature}{28}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Neural Simulation-Based Inference Validation (NSBI)}{28}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Calibrated CMS Discovery-Limit Audit}{28}{section.7.4}%
+\contentsline {chapter}{The Certified Three-Stage Protocol Implementation}{30}{appendix*.6}%

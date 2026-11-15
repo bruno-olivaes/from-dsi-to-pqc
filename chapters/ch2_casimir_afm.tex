@@ -2,7 +2,7 @@
 \label{ch:casimir_afm}
 
 \begin{abstract}
-Precision nanomechanical measurements of the Casimir interaction at sub-micron separations are increasingly audited for hypothetical short-range modifications of gravity and exotic forces. However, residual force curves are intrinsically non-uniformly sampled and contaminated by steep short-range baseline drifts. In this chapter, we demonstrate how conventional data-processing choices inadvertently fabricate statistically overwhelming false positive signals or severely degrade experimental sensitivity. Specifically, we show that: (1) naive $3\sigma$ Gaussian thresholds applied to exponentially distributed periodograms flag up to 36 spurious peaks on pure white noise; (2) unphysical polynomial detrending across steep $z^{-4}$ short-range profiles induces Runge-type boundary ringing that generates an apparent oscillatory anomaly at $\lambda = 583.5\,\mathrm{nm}$ with an artificial significance of $\mathrm{FAP} = 1.49 \times 10^{-45}$; (3) cubic spline resampling on irregular grids ($\mathrm{CV} = 40.7\%$) destroys 57\% of true signal variance at short wavelengths, degrading the 90\% Minimum Detectable Level by a factor of 2.28; and (4) surface electrostatic patch potentials measured via Kelvin Probe Force Microscopy (KPFM) yield strictly monotonic power-law decays ($P \propto d^{-2.29}$), proving that patch roughness cannot generate periodic residual modulations. Adopting a physically motivated inverse-power baseline collapses residual variance ($\chi^2/\mathrm{dof} = 1.14$) and restores the true experimental null result ($\mathrm{FAP} = 0.163$).
+Precision nanomechanical measurements of the Casimir interaction at sub-micron separations are increasingly audited for hypothetical short-range modifications of gravity and exotic forces. However, residual force curves are intrinsically non-uniformly sampled and contaminated by steep short-range baseline drifts. In this chapter, we demonstrate how conventional data-processing choices inadvertently fabricate statistically overwhelming false positive signals or severely degrade experimental sensitivity. Specifically, we show that: (1) naive $3\sigma$ Gaussian thresholds applied to exponentially distributed periodograms flag up to 36 spurious peaks on pure white noise; (2) unphysical polynomial detrending across steep $z^{-4}$ short-range profiles induces Runge-type boundary ringing that generates an apparent oscillatory anomaly at $\lambda = 583.5\,\mathrm{nm}$ with an artificial significance of $\mathrm{FAP} = 1.49 \times 10^{-45}$; (3) cubic spline resampling on irregular grids ($\mathrm{CV} = 40.7\%$) attenuates 22.6\% of true signal variance across the full scan at $\lambda = 7.5\,\mathrm{nm}$, degrading the 90\% Minimum Detectable Level by a factor of 2.27; and (4) surface electrostatic patch potentials measured via Kelvin Probe Force Microscopy (KPFM) yield strictly monotonic power-law decays ($P \propto d^{-2.29}$), proving that patch roughness cannot generate periodic residual modulations. Adopting a physically motivated inverse-power baseline collapses residual variance ($\chi^2/\mathrm{dof} = 1.14$) and restores the true experimental null result ($\mathrm{FAP} = 0.163$).
 \end{abstract}
 
 \section{Introduction}
@@ -40,7 +40,12 @@ When the baseline is modeled instead using the physical inverse-power expansion 
 \Delta P_{\mathrm{phys}}(z) = c_0 + c_4 \left(\frac{z_0}{z}\right)^4 + c_5 \left(\frac{z_0}{z}\right)^5,
 \label{eq:phys_basis}
 \end{equation}
-(with $z_0 = 200\,\mathrm{nm}$), the residual variance immediately collapses to $\chi^2/\mathrm{dof} = 1.14$. The phantom peak disappears completely, and the maximum spectral power drops to $P_{\max} = 0.0332$, yielding an empirical Baluev~\cite{baluev2008} $\mathrm{FAP} = 0.163$, fully confirming the experimental null result.
+(with $z_0 = 200\,\mathrm{nm}$), the residual variance immediately collapses to $\chi^2/\mathrm{dof} = 1.14$. Crucially, the $z^{-5}$ basis term is doubly motivated: under any small experimental contact-point calibration offset $z \to z + \delta z_0$ ($|\delta z_0| \ll z$), a first-order Taylor expansion of the leading $z^{-4}$ Casimir gradient (with $C_4 = c_4 z_0^4$) gives:
+\begin{equation}
+C_4 (z + \delta z_0)^{-4} = C_4 z^{-4}\left(1 + \frac{\delta z_0}{z}\right)^{-4} = C_4 z^{-4} - 4 C_4 \delta z_0 z^{-5} + \mathcal{O}\!\left(\frac{\delta z_0^2}{z^6}\right),
+\label{eq:taylor_drift}
+\end{equation}
+proving analytically that the spurious $-4 C_4 \delta z_0 z^{-5}$ calibration artifact is absorbed identically in first order by our physical baseline in Eq.~\eqref{eq:phys_basis}. With this basis, the phantom peak disappears completely, and the maximum spectral power drops to $P_{\max} = 0.0332$, yielding an empirical Baluev~\cite{baluev2008} $\mathrm{FAP} = 0.163$, fully confirming the experimental null result.
 
 Furthermore, naive thresholding rules (such as $\mathrm{median} + 3\sigma_{\mathrm{clipped}}$) mistakenly assume that periodogram powers are Gaussian-distributed. Because Fourier periodogram powers on Gaussian white noise follow an exponential distribution ($\chi^2_2/2$), this naive rule flags up to 36 false peaks on identically detrended white noise, whereas the exact $\chi^2_2$ threshold flags zero.
 
@@ -69,15 +74,15 @@ A second prevalent practice in precision metrology is interpolating non-uniform 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.92\textwidth]{figures/fig2_spline_attenuation.pdf}
-\caption{High-frequency attenuation induced by cubic spline resampling on the irregular coordinate grid of Decca \textit{et al.}\ Fig.~3(b) ($\mathrm{CV}(\Delta z) = 40.7\%$). Top: An injected high-frequency oscillation ($\lambda = 7.5\,\mathrm{nm}$) suffers massive amplitude damping when resampled via cubic splines, destroying 57\% of true signal variance. Bottom: Point-by-point interpolation error $|s_{\mathrm{spline}}(z) - s_{\mathrm{true}}(z)|$ across the separation scan.}
+\caption{High-frequency attenuation induced by cubic spline resampling on the irregular coordinate grid of Decca \textit{et al.}\ Fig.~3(b) ($\mathrm{CV}(\Delta z) = 40.7\%$). Top: An injected high-frequency oscillation ($\lambda = 7.5\,\mathrm{nm}$) suffers strong amplitude damping when resampled via cubic splines ($19.0\%$ variance loss in the displayed close-separation window; $22.6\%$ across the full $N=288$ scan). Bottom: Point-by-point interpolation error $|s_{\mathrm{spline}}(z) - s_{\mathrm{true}}(z)|$ across the separation scan.}
 \label{fig:spline_attenuation}
 \end{figure}
 
 We quantified the distortion induced by spline resampling using the exact coordinate grid of the static force residuals of Decca \textit{et al.}~\cite{decca2003} ($N = 288$, median step $\Delta z = 3.29\,\mathrm{nm}$, coefficient of variation $\mathrm{CV}(\Delta z) = 40.7\%$, $\sigma_F = 0.229\,\mathrm{pN}$). Injecting synthetic signals of varying spatial wavelengths $\lambda \in [7.5, 160]\,\mathrm{nm}$, we observed that:
 \begin{enumerate}
-    \item Spline interpolation acts as a non-linear low-pass filter (Fig.~\ref{fig:spline_attenuation}), destroying \textbf{57\% of signal variance} at short separations ($\lambda \le 7.5\,\mathrm{nm}$).
-    \item At matched global false-alarm rates ($\alpha = 0.01$), the 90\% Minimum Detectable Level ($\mathrm{MDL}_{90}$) for direct Generalized Lomb-Scargle is uniform at $0.54\,\sigma_F$.
-    \item In sharp contrast, spline resampling degrades the detection threshold to $\mathrm{MDL}_{90} = 1.23\,\sigma_F$ at $\lambda = 7.5\,\mathrm{nm}$ (a sensitivity degradation factor of \textbf{2.28}).
+    \item Spline interpolation acts as a non-linear low-pass filter (Fig.~\ref{fig:spline_attenuation}), attenuating \textbf{22.6\% of true signal variance} across the full irregular scan at $\lambda = 7.5\,\mathrm{nm}$ ($19.1\%$ at $\lambda = 10\,\mathrm{nm}$).
+    \item At matched global false-alarm rates ($\alpha = 0.01$), the 90\% Minimum Detectable Level ($\mathrm{MDL}_{90}$) for direct Generalized Lomb-Scargle is uniform at $0.542\,\sigma_F$.
+    \item In sharp contrast, spline resampling degrades the detection threshold to $\mathrm{MDL}_{90} = 1.227\,\sigma_F$ at $\lambda = 7.5\,\mathrm{nm}$ (a \textbf{$2.27\times$} sensitivity degradation factor, corresponding to a $55.8\%$ loss in inverse sensitivity).
 \end{enumerate}
 Direct evaluation on un-interpolated coordinates using heteroscedastic GLS is therefore mandatory to preserve high-frequency experimental sensitivity.
 

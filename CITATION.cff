@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this monograph, please cite it as below."
+title: "The Matrioska Protocol: From Primordial Discrete Scale Invariance to Post-Quantum Agility"
+type: book
+authors:
+  - given-names: "Bruno Luçardo"
+    family-names: "Olivaes"
+    orcid: "https://orcid.org/0009-0003-5351-446X"
+repository-code: "https://github.com/bruno-olivaes/from-dsi-to-pqc"
+url: "https://bruno-olivaes.github.io"
+license: MIT
+version: "2.0.0"
+doi: "10.5281/zenodo.24124702"
+date-released: "2026-11-12"
+keywords:
+  - discrete scale invariance
+  - casimir metrology
+  - dark energy
+  - quantum error mitigation
+  - post-quantum cryptography
+  - neural simulation-based inference
+

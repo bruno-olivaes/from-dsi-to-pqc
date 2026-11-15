@@ -13,6 +13,10 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chapters/ch4_qiskit_zne.aux
 Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: chapters/ch5_pqc_network_cost.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: chapters/ch6_lhc_dsi.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: chapters/ch7_lhc_unbinned_likelihood.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: chapters/appendix_protocol_code.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
@@ -20,45 +24,45 @@ The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
 Warning--empty publisher in paquin2020
-You've used 34 entries,
+You've used 38 entries,
             1791 wiz_defined-function locations,
-            657 strings with 8224 characters,
-and the built_in function-call counts, 7806 in all, are:
-= -- 732
-> -- 265
+            686 strings with 8859 characters,
+and the built_in function-call counts, 8650 in all, are:
+= -- 815
+> -- 288
 < -- 8
-+ -- 104
-- -- 70
-* -- 490
-:= -- 1223
-add.period$ -- 103
-call.type$ -- 34
-change.case$ -- 34
++ -- 114
+- -- 76
+* -- 549
+:= -- 1353
+add.period$ -- 115
+call.type$ -- 38
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 365
-empty$ -- 798
-format.name$ -- 70
-if$ -- 1750
+cite$ -- 39
+duplicate$ -- 397
+empty$ -- 890
+format.name$ -- 76
+if$ -- 1935
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 32
-newline$ -- 173
-num.names$ -- 34
-pop$ -- 67
+int.to.str$ -- 38
+missing$ -- 35
+newline$ -- 193
+num.names$ -- 38
+pop$ -- 76
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 169
+skip$ -- 181
 stack$ -- 0
-substring$ -- 623
-swap$ -- 84
+substring$ -- 704
+swap$ -- 88
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 87
-width$ -- 36
-write$ -- 376
+while$ -- 97
+width$ -- 40
+write$ -- 419
 (There was 1 warning)

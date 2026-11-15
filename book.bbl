@@ -189,4 +189,27 @@ J.~Chu, N.~Dukkipati, Y.~Cheng, and M.~Mathis.
 \newblock Increasing tcp's initial window.
 \newblock RFC 6928, IETF, 2013.
 
+\bibitem{sornette1998}
+Didier Sornette.
+\newblock Discrete-scale invariance and complex dimensions.
+\newblock {\em Physics Reports}, 297(5):239--270, 1998.
+
+\bibitem{cms2010dimuon}
+{CMS Collaboration}.
+\newblock Dimuon invariant mass distribution from run2010b doublemu dataset at
+  $\sqrt{s} = 7$ tev.
+\newblock CERN Open Data Portal, 2014.
+
+\bibitem{cranmer2020}
+Kyle Cranmer, Johann Brehmer, and Gilles Louppe.
+\newblock The frontier of simulation-based inference.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  117(48):30055--30062, 2020.
+
+\bibitem{wilks1938}
+S.~S. Wilks.
+\newblock The large-sample distribution of the likelihood ratio for testing
+  composite hypotheses.
+\newblock {\em Annals of Mathematical Statistics}, 9(1):60--62, 1938.
+
 \end{thebibliography}

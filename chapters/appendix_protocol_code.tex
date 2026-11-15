@@ -92,9 +92,10 @@ def stage3_certify(
     # Gate 1: Resolvability (Rayleigh criterion & Nyquist bounds)
     gate_resolvable = bool(omega_min <= omega <= omega_max)
 
-    # Gate 2: Amplitude Significance (> 2.0 * RMS)
+    # Gate 2: Amplitude Significance (> 2.0 * residual RMS)
     y = residuals - residuals.mean()
-    rms_noise = float(np.sqrt(np.mean(y**2)))
+    y_fit = stage2["amp"] * np.cos(omega * u + stage2["phi"])
+    rms_noise = float(np.sqrt(np.mean((y - y_fit) ** 2)))
     gate_amplitude = bool(abs(stage2["amp"]) > 2.0 * rms_noise)
 
     # Gate 3: Precision Gate (sigma_lambda / lambda_hat < 0.20)
