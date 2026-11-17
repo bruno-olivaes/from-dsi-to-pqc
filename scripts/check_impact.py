@@ -5,7 +5,7 @@ Autor: Bruno L. Olivaes
 Data: Novembro 2026
 
 Consulta em tempo real as métricas de visualizações e downloads de cada um
-dos 5 registros oficiais publicados no CERN/Zenodo.
+dos 8 registros oficiais publicados no CERN/Zenodo.
 """
 
 import json
@@ -49,6 +49,18 @@ PAPERS = [
         "doi": "10.5281/zenodo.24121695",
         "name": "05. PQC TLS 1.3 (Criptografia)",
         "repo": "pqc-crypto-agility-benchmark",
+    },
+    {
+        "id": "24149840",
+        "doi": "10.5281/zenodo.24149840",
+        "name": "06. LHC Dimuons DSI (CMS)",
+        "repo": "lhc-dsi-search",
+    },
+    {
+        "id": "24149842",
+        "doi": "10.5281/zenodo.24149842",
+        "name": "07. LHC Unbinned + NSBI (PRD)",
+        "repo": "lhc-nsbi-dsi",
     },
 ]
 

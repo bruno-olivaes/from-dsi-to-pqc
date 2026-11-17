@@ -1,6 +1,6 @@
-# The Matrioska Protocol: From Cosmic Scale Invariance to Quantum Security
+# The Matrioska Protocol: From Primordial Discrete Scale Invariance to Post-Quantum Agility
 
-### *A Metrological Journey through Cosmology, Quantum Computing, and Post-Quantum Cryptography*
+### *A Metrological Journey through Cosmology, Casimir Physics, Quantum Computing, Colliders, and Post-Quantum Cryptography*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24124702-blue)](https://doi.org/10.5281/zenodo.24124702)
@@ -100,8 +100,8 @@ python scripts/check_impact.py
 ```bibtex
 @book{olivaes2026matrioska,
   author    = {Olivaes, Bruno Lu{\c{c}}ardo},
-  title     = {The Matrioska Protocol: From Cosmic Scale Invariance to Quantum Security},
-  subtitle  = {A Metrological Journey through Cosmology, Quantum Computing, and Post-Quantum Cryptography},
+  title     = {The Matrioska Protocol: From Primordial Discrete Scale Invariance to Post-Quantum Agility},
+  subtitle  = {A Metrological Journey through Cosmology, Casimir Physics, Quantum Computing, Colliders, and Post-Quantum Cryptography},
   edition   = {1},
   year      = {2026},
   month     = nov,
